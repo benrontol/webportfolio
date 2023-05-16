@@ -8,8 +8,18 @@ body {
 	background-color: #e6e8e6;
 }
 
+#aboutme p, #aboutme h2 {
+	font-weight: bold;
+}
+
+#aboutme p {
+	font-size: 1.5rem;
+	letter-spacing: 0.12rem;
+	line-height: 1.5;
+}
+
 #fswd {
-	letter-spacing: 0.1rem;
+/*	letter-spacing: 0.1rem;*/
 }
 
 #landing {
