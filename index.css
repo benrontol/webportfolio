@@ -12,3 +12,14 @@
 #tools img {
 	width: 8rem;
 }
+
+.scrolled {
+	background-color: #c3cac2;
+	transition: 0.4s;
+	box-shadow: 0px 1px 10px #333;
+
+}
+
+.scrolled a {
+	color: #343a40;
+}
