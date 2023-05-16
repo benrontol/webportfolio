@@ -1,6 +1,5 @@
 #landing {
 	background-image: url(https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80);
-	min-height: 50vh;
 	background-size: cover;
 	background-position: center;
 
@@ -8,5 +7,8 @@
 
 #fg-landing {
 	background-color: rgba(0, 0, 0, 0.5);
-	height: 50vh;
+}
+
+#tools img {
+	width: 8rem;
 }
