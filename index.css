@@ -5,6 +5,10 @@
 
 }
 
+.navbar-brand {
+	font-size: 1.5rem !important;
+}
+
 #fg-landing {
 	background-color: rgba(0, 0, 0, 0.5);
 }
