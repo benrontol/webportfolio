@@ -30,12 +30,17 @@ body {
 	word-spacing: 0.5rem;
 }
 
-#social-links {
-}
+
 
 #social-links a {
 	color: #eff6e0;
 	font-size: 1.2rem;
+}
+
+#social-links a svg {
+	position: relative;
+	bottom: 0.2rem;
+	margin-right: 0.2rem;
 }
 
 #fswd {
