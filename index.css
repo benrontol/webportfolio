@@ -13,9 +13,35 @@ body {
 	background-color: #e6e8e6;
 }
 
+/* NAVBAR */
+.navbar-brand {
+	font-size: 1.8rem !important;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	letter-spacing: 0.1rem;
+}
+
 .nav-item {
 	font-size: 1.2rem;
 }
+
+.scrolled {
+	transition: 0.4s;
+	box-shadow: 0px 1px 10px #333;
+}
+
+.scrolled a {
+	color: #343a40;
+}
+
+.scrolled [href="#main"]  {
+	font-weight: bold;
+}
+
+/*END OF NAVBAR */
+
+
+/* LANDING */
 
  #aboutme h2 {
 	font-weight: bold;
@@ -29,8 +55,6 @@ body {
 	margin-bottom: 2.5rem;
 	word-spacing: 0.5rem;
 }
-
-
 
 #social-links a {
 	color: #eff6e0;
@@ -54,30 +78,17 @@ body {
 	min-height: 40vh;
 }
 
-.navbar-brand {
-	font-size: 1.8rem !important;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 800;
-	letter-spacing: 0.1rem;
-}
-
 #fg-landing {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
+/*END OF LANDING */
+
+
+/* TOOLS SECTION */
 #tools img {
 	width: 8rem;
 }
 
-.scrolled {
-	transition: 0.4s;
-	box-shadow: 0px 1px 10px #333;
-}
+/* END OF TOOLS SECTION */
 
-.scrolled a {
-	color: #343a40;
-}
-
-.scrolled [href="#main"]  {
-	font-weight: bold;
-}
