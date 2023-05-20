@@ -103,6 +103,10 @@ color: #eff6e0;
 
 
 /* CONTACT SECTION */
+#contact {
+	min-height: 60vh;
+}
+
 #contact label {
 	letter-spacing: 0.05rem;
 	word-spacing: 0.1rem;
@@ -117,7 +121,7 @@ footer {
 /* END FOOTER SECTION */
 
 /* ANCHORS */
-#tools-anchor, #projects-anchor, #main-anchor {
+#tools-anchor, #projects-anchor, #main-anchor, #contacts-anchor {
 	visibility: hidden;
 	position: relative;
 	top: -50px;

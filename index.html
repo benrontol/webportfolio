@@ -44,7 +44,7 @@
 									<a class="nav-link" href="#tools-anchor">Tools</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#contact">Contact</a>
+									<a class="nav-link" href="#contacts-anchor">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -61,7 +61,7 @@
 	<div id="main" class="container-fluid px-3">
 
 		<!-- Landing section -->
-		<section id="landing" class="row ">
+		<section id="landing" class="row min-vh-100">
 			<div class="col col-md-10 col-lg-8 col-xl-6 mx-auto ">
 				<div id="aboutme" class=" mt-5">
 					<h2 class="">Hello, I'm Ben</h2>
@@ -84,7 +84,7 @@
 
 		<!-- Projects Section -->
 		<div class="" id="projects-anchor"></div>
-		<section id="projects" class="row mt-5">
+		<section id="projects" class="row mt-5 min-vh-100">
 			<div class="col-12 mb-1 px-0">
 				<h2 class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto" class="text-xl-center">Projects</h2>
 			</div>
@@ -141,7 +141,7 @@
 
 		<!-- Tools Section -->
 		<div class="" id="tools-anchor"></div>
-		<section id="tools" class="row mt-5" >
+		<section id="tools" class="row mt-5 " >
 			<div class="col-12 mb-1 px-0">
 				<h2 class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto" class="text-xl-center">Tools</h2>
 			</div>
@@ -170,11 +170,10 @@
 		<!-- End Tools Section -->
 
 		<!-- Contact section -->
-		<section id="contact" class="row  mt-5 mb-5">
-			<div class="col-12 mb-1 px-0">
-				<h2 class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto" class="text-xl-center">Get In Touch</h2>
-			</div>
+		<div class="" id="contacts-anchor"></div>
+		<section id="contact" class="row  mt-5 flex-column ">
 			<div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+				<h2 class="px-0" class="text-xl-center">Get In Touch</h2>
 				<form class=" py-2">
 					<div class="row">
 						<div class="col-12 col-md-6 form-group">
@@ -211,19 +210,17 @@
 							</div>
 						</div>
 					</div>
-
 				</form>
-
-
 			</div>
 
 			<!-- BACK TO TOP BUTTON -->				
-			<div class="col-12 mx-auto text-center	">
+			<div id="back-to-top" class="col-12 mx-auto text-center">
 				<a href="#top-anchor"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
 					<path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
-				</svg></a>
+				</svg><p class="mt-2">Back to Top</p>
+			</a>
+				
 			</div>
-			
 		</section>
 		<!-- End Contact section -->
 
