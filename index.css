@@ -84,6 +84,16 @@ color: #eff6e0;
 
 /*END OF LANDING */
 
+.project-description p{
+	letter-spacing: 0.05rem;
+	word-spacing: 0.1rem;
+}
+
+/* PROJECTS SECTION */
+
+
+
+/* END PROJECTS SECTION */
 
 /* TOOLS SECTION */
 #tools img {
