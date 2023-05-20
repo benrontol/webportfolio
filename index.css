@@ -117,7 +117,7 @@ footer {
 /* END FOOTER SECTION */
 
 /* ANCHORS */
-#tools-anchor, #projects-anchor, #main-anchor, {
+#tools-anchor, #projects-anchor, #main-anchor {
 	visibility: hidden;
 	position: relative;
 	top: -50px;
