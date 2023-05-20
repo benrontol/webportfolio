@@ -21,3 +21,25 @@ window.onscroll = () => {
     nav.classList.remove('bg-dark')
   }
 };
+
+
+function scrollToNextSection() {
+  let  currentSection = document.querySelector('.active-section');
+  let  nextSection = currentSection.nextElementSibling;
+  nextSection.scrollIntoView();
+  console.log(currentSection)
+  console.log(nextSection)
+  // if (nextSection) {
+  //   console.log("Scrolling to")
+  //   console.log(nextSection)
+  //   nextSection.scrollIntoView();
+
+  //   //remove active-section class
+  //   currentSection.classList.remove('active-section')
+
+  //   //assign currentSection variable to nextSection element and then active-section class
+  //   currentSection = nextSection
+  //   currentSection.classList.add('active-section')
+
+  // }
+}

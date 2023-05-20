@@ -22,6 +22,8 @@
 	<title>Portfolio - Web Developer</title>
 </head>
 <body class="">
+
+
 	<div id="top-anchor"></div>
 	<!-- Navbar -->
 	<nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top mb-5 ">
@@ -35,7 +37,7 @@
 						<div class="collapse navbar-collapse" id="navbarNav">
 							<ul class="navbar-nav ml-auto  ">
 								<li class="nav-item active">
-									<a class="nav-link" href="#main-anchor">Home <span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="#landing-anchor">Home <span class="sr-only">(current)</span></a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="#projects-anchor">Projects</a>
@@ -56,14 +58,26 @@
 	</nav>
 	<!-- End Navbar -->
 
-	<!-- Main content -->
-	<div id="main-anchor"></div>
-	<div id="main" class="container-fluid px-3">
 
+
+	<!-- Main content -->
+	<div id="main" class="container-fluid px-3">
 		<!-- Landing section -->
-		<section id="landing" class="row min-vh-100">
+		<section id="landing" class="row min-vh-100 active-section">
+			<div id="landing-anchor"></div>
 			<div class="col col-md-10 col-lg-8 col-xl-6 mx-auto ">
 				<div id="aboutme" class=" mt-5">
+					<!-- FLOATING SCROLL BUTTON -->
+					<div>
+						<a id="down-button" href="#" onclick="scrollToNextSection()">
+							<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+							  <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+							  <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+							</svg>
+						</a>
+					</div>
+					<!-- END FLOATING SCROLL BUTTON -->
+
 					<h2 class="">Hello, I'm Ben</h2>
 					<p>
 						I'm an aspiring <span id="fswd" class="font-italic">Full Stack Web Developer</span> currently taking the <a href="https://zuitt.co/">Zuitt Coding Bootcamp</a>
@@ -83,8 +97,8 @@
 		<!-- End Landing section -->
 
 		<!-- Projects Section -->
-		<div class="" id="projects-anchor"></div>
 		<section id="projects" class="row mt-5 min-vh-100">
+			<div class="" id="projects-anchor"></div>
 			<div class="col-12 mb-1 px-0">
 				<h2 class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto" class="text-xl-center">Projects</h2>
 			</div>
@@ -140,8 +154,8 @@
 		<!-- End Projects Section -->
 
 		<!-- Tools Section -->
-		<div class="" id="tools-anchor"></div>
 		<section id="tools" class="row mt-5 " >
+			<div class="" id="tools-anchor"></div>
 			<div class="col-12 mb-1 px-0">
 				<h2 class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto" class="text-xl-center">Tools</h2>
 			</div>
@@ -170,8 +184,8 @@
 		<!-- End Tools Section -->
 
 		<!-- Contact section -->
-		<div class="" id="contacts-anchor"></div>
 		<section id="contact" class="row  mt-5 flex-column ">
+			<div class="" id="contacts-anchor"></div>
 			<div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
 				<h2 class="px-0" class="text-xl-center">Get In Touch</h2>
 				<form class=" py-2">

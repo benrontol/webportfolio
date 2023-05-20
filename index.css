@@ -5,9 +5,20 @@ html {
 body {
 	background-color: #080708;
 /*	font-family: 'Reem Kufi Fun', sans-serif;*/
-font-family: 'Reem Kufi', sans-serif;
-color: #eff6e0;
+	font-family: 'Reem Kufi', sans-serif;
+	color: #eff6e0;
+	position: relative;
 }
+
+/* FLOATING SCROLL BUTTON */
+#down-button {
+	position: fixed;
+	bottom: 100px;
+	right: 10%;
+	z-index: 999;
+	cursor: pointer;
+}
+/* END FLOATING SCROLL BUTTON */
 
 .theme-light {
 	background-color: #e6e8e6;
@@ -126,10 +137,10 @@ footer {
 /* END FOOTER SECTION */
 
 /* ANCHORS */
-#tools-anchor, #projects-anchor, #main-anchor, #contacts-anchor {
+#tools-anchor, #projects-anchor, #landing-anchor, #contacts-anchor {
 	visibility: hidden;
 	position: relative;
-	top: -50px;
+	top: -100px;
 }
 
 #top-anchor {
