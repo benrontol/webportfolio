@@ -38,8 +38,8 @@ color: #eff6e0;
 	font-weight: bold;
 }
 
-/*END OF NAVBAR */
 
+/*END OF NAVBAR */
 
 /* LANDING */
 
@@ -63,7 +63,7 @@ color: #eff6e0;
 
 #social-links a svg {
 	position: relative;
-	bottom: 0.2rem;
+	bottom: 0.3rem;
 	margin-right: 0.3rem;
 }
 
