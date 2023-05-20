@@ -15,10 +15,15 @@ color: #eff6e0;
 
 /* NAVBAR */
 .navbar-brand {
-	font-size: 1.8rem !important;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 800;
-	letter-spacing: 0.1rem;
+	color: #ffffff80;
+	font-size: 2rem !important;
+	font-weight: 900;
+	letter-spacing: 0.22rem;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.navbar-brand span {
+/*	color: #FFFFFF80;*/
 }
 
 .nav-item {
