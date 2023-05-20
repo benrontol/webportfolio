@@ -88,6 +88,7 @@ body {
 }
 
 #landing {
+	scroll-margin-top: 3rem;
 	margin-top: 10rem;
 	background-size: cover;
 	background-position: center;
@@ -100,17 +101,24 @@ body {
 
 /*END OF LANDING */
 
+/* PROJECTS SECTION */
+
+#projects {
+	scroll-margin-top: 5rem;
+}
+
 .project-description p{
 	letter-spacing: 0.05rem;
 	word-spacing: 0.1rem;
 }
 
-/* PROJECTS SECTION */
-
-
 /* END PROJECTS SECTION */
 
 /* TOOLS SECTION */
+#tools{
+	scroll-margin-top: 5rem;
+}
+
 #tools img {
 	width: 8rem;
 }
@@ -121,6 +129,7 @@ body {
 /* CONTACT SECTION */
 #contact {
 	min-height: 60vh;
+	scroll-margin-top: 5rem;
 }
 
 #contact label {

@@ -33,22 +33,17 @@ function scrollToNextSection() {
       nextSection = currentSection.nextElementSibling;
   }
 
-  console.log(currentSection)
-  console.log(nextSection)
-
   if (nextSection) {
-    nextSection.scrollIntoView();
 
+    //scrollIntoView works properly inside setTimeout o_O ?
     setTimeout(() => {
-      nextSection.scrollIntoView({ block: 'center' });
+      nextSection.scrollIntoView({block: "start"});
 
       //remove active-section class from currentSection, and
       // reassign currentSection variable with nextSection element
-      console.log(currentSection)
       currentSection.classList.remove('active-section')
       currentSection = nextSection
       currentSection.classList.add('active-section')
-      console.log(currentSection)
 
     }, 0);
 
