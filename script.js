@@ -25,21 +25,32 @@ window.onscroll = () => {
 
 function scrollToNextSection() {
   let  currentSection = document.querySelector('.active-section');
-  let  nextSection = currentSection.nextElementSibling;
-  nextSection.scrollIntoView();
+  let  nextSection
+  //if currentSection is last section, set nextSection to landing section.
+  if(currentSection.id === "contact"){
+      nextSection = document.querySelector("#landing")
+  } else {
+      nextSection = currentSection.nextElementSibling;
+  }
+
   console.log(currentSection)
   console.log(nextSection)
-  // if (nextSection) {
-  //   console.log("Scrolling to")
-  //   console.log(nextSection)
-  //   nextSection.scrollIntoView();
 
-  //   //remove active-section class
-  //   currentSection.classList.remove('active-section')
+  if (nextSection) {
+    nextSection.scrollIntoView();
 
-  //   //assign currentSection variable to nextSection element and then active-section class
-  //   currentSection = nextSection
-  //   currentSection.classList.add('active-section')
+    setTimeout(() => {
+      nextSection.scrollIntoView({ block: 'center' });
 
-  // }
+      //remove active-section class from currentSection, and
+      // reassign currentSection variable with nextSection element
+      console.log(currentSection)
+      currentSection.classList.remove('active-section')
+      currentSection = nextSection
+      currentSection.classList.add('active-section')
+      console.log(currentSection)
+
+    }, 0);
+
+  }
 }
