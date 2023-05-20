@@ -14,7 +14,7 @@ body {
 #down-button {
 	position: fixed;
 	bottom: 100px;
-	right: 10%;
+	right: 5%;
 	z-index: 999;
 	cursor: pointer;
 }
