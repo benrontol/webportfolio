@@ -102,3 +102,16 @@ color: #eff6e0;
 
 /* END OF TOOLS SECTION */
 
+/* CONTACT SECTION */
+#contact label {
+	letter-spacing: 0.05rem;
+	word-spacing: 0.1rem;
+}
+/* END CONTACT SECTION */
+
+/* FOOTER SECTION */
+footer {
+	letter-spacing: 0.05rem;
+	word-spacing: 0.1rem;
+}
+/* END FOOTER SECTION */
