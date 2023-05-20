@@ -22,7 +22,7 @@
 	<title>Portfolio - Web Developer</title>
 </head>
 <body class="">
-	<div id="top" class="p-0 m-0"></div>
+	<div id="top-anchor"></div>
 	<!-- Navbar -->
 	<nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top mb-5 ">
 		<div class="container-fluid px-0">
@@ -35,13 +35,13 @@
 						<div class="collapse navbar-collapse" id="navbarNav">
 							<ul class="navbar-nav ml-auto  ">
 								<li class="nav-item active">
-									<a class="nav-link" href="#main">Home <span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="#main-anchor">Home <span class="sr-only">(current)</span></a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#projects">Projects</a>
+									<a class="nav-link" href="#projects-anchor">Projects</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#tools">Tools</a>
+									<a class="nav-link" href="#tools-anchor">Tools</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="#contact">Contact</a>
@@ -57,10 +57,11 @@
 	<!-- End Navbar -->
 
 	<!-- Main content -->
+	<div id="main-anchor"></div>
 	<div id="main" class="container-fluid px-3">
 
 		<!-- Landing section -->
-		<div id="landing" class="row ">
+		<section id="landing" class="row ">
 			<div class="col col-md-10 col-lg-8 col-xl-6 mx-auto ">
 				<div id="aboutme" class=" mt-5">
 					<h2 class="">Hello, I'm Ben</h2>
@@ -78,11 +79,12 @@
 					<a href="https://gitlab.com/bentol.webdev" target="_blank" class="ml-sm-3 ml-lg-5"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M48 32H400C426.5 32 448 53.5 448 80V432C448 458.5 426.5 480 400 480H48C21.5 480 0 458.5 0 432V80C0 53.5 21.5 32 48 32zM382.1 224.9L337.5 108.5C336.6 106.2 334.9 104.2 332.9 102.9C331.3 101.9 329.5 101.3 327.7 101.1C325.9 100.9 324 101.2 322.3 101.8C320.6 102.5 319 103.5 317.8 104.9C316.6 106.3 315.7 107.9 315.2 109.7L285 201.9H162.1L132.9 109.7C132.4 107.9 131.4 106.3 130.2 104.9C128.1 103.6 127.4 102.5 125.7 101.9C123.1 101.2 122.1 100.1 120.3 101.1C118.5 101.3 116.7 101.9 115.1 102.9C113.1 104.2 111.5 106.2 110.6 108.5L65.94 224.9L65.47 226.1C59.05 242.9 58.26 261.3 63.22 278.6C68.18 295.9 78.62 311.1 92.97 321.9L93.14 322L93.52 322.3L161.4 373.2L215.6 414.1C217.1 415.1 220.9 416.9 223.9 416.9C226.9 416.9 229.9 415.1 232.3 414.1L286.4 373.2L354.8 322L355 321.9C369.4 311 379.8 295.8 384.8 278.6C389.7 261.3 388.1 242.9 382.5 226.1L382.1 224.9z"/></svg>Gitlab</a>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- End Landing section -->
 
 		<!-- Projects Section -->
-		<div id="projects" class="row mt-5">
+		<div class="" id="projects-anchor"></div>
+		<section id="projects" class="row mt-5">
 			<div class="col-12 mb-1 px-0">
 				<h2 class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto" class="text-xl-center">Projects</h2>
 			</div>
@@ -134,11 +136,12 @@
 					<p class="text-center">Shop conveniently with this Online Grocery App. Browse a wide selection of products, create personalized shopping lists, and have your groceries delivered right to your doorstep. Enjoy a hassle-free shopping experience from the comfort of your home.</p>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- End Projects Section -->
 
 		<!-- Tools Section -->
-		<div id="tools" class="row mt-5" >
+		<div class="" id="tools-anchor"></div>
+		<section id="tools" class="row mt-5" >
 			<div class="col-12 mb-1 px-0">
 				<h2 class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto" class="text-xl-center">Tools</h2>
 			</div>
@@ -163,11 +166,11 @@
 				<img src="images/logo-expressjs.png"/>
 				<img src="images/logo-heroku.png"/>
 			</div>
-		</div>
+		</section>
 		<!-- End Tools Section -->
 
 		<!-- Contact section -->
-		<div id="contact" class="row  mt-5 mb-5">
+		<section id="contact" class="row  mt-5 mb-5">
 			<div class="col-12 mb-1 px-0">
 				<h2 class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto" class="text-xl-center">Get In Touch</h2>
 			</div>
@@ -212,13 +215,16 @@
 				</form>
 
 
-			</div>				
+			</div>
+
+			<!-- BACK TO TOP BUTTON -->				
 			<div class="col-12 mx-auto text-center	">
-				<a href="#top"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+				<a href="#top-anchor"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
 					<path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
 				</svg></a>
 			</div>
-		</div>
+			
+		</section>
 		<!-- End Contact section -->
 
 

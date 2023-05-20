@@ -92,7 +92,6 @@ color: #eff6e0;
 /* PROJECTS SECTION */
 
 
-
 /* END PROJECTS SECTION */
 
 /* TOOLS SECTION */
@@ -101,6 +100,7 @@ color: #eff6e0;
 }
 
 /* END OF TOOLS SECTION */
+
 
 /* CONTACT SECTION */
 #contact label {
@@ -115,3 +115,19 @@ footer {
 	word-spacing: 0.1rem;
 }
 /* END FOOTER SECTION */
+
+/* ANCHORS */
+#tools-anchor, #projects-anchor, #main-anchor, {
+	visibility: hidden;
+	position: relative;
+	top: -50px;
+}
+
+#top-anchor {
+	visibility: hidden;
+	position: relative;
+	top: -150px;
+}
+
+
+/* END ANCHORS */
