@@ -5,8 +5,8 @@ html {
 body {
 	background-color: #080708;
 /*	font-family: 'Reem Kufi Fun', sans-serif;*/
-	font-family: 'Reem Kufi', sans-serif;
-	color: #eff6e0;
+font-family: 'Reem Kufi', sans-serif;
+color: #eff6e0;
 }
 
 .theme-light {
@@ -43,7 +43,7 @@ body {
 
 /* LANDING */
 
- #aboutme h2 {
+#aboutme h2 {
 	font-weight: bold;
 }
 
