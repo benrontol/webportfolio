@@ -12,11 +12,13 @@ window.onscroll = () => {
     nav.classList.remove('theme-light')
     nav.classList.remove('navbar-light')
     nav.classList.add('navbar-dark')
+    nav.classList.add('theme-dark')
   } else {
     nav.classList.add('scrolled')
     nav.classList.add('theme-light')
     nav.classList.add('navbar-light')
     nav.classList.remove('navbar-dark')
+    nav.classList.remove('theme-dark')
   }
 };
 
