@@ -70,6 +70,8 @@ body {
 	background-size: cover;
 	margin-left: -1rem;
 	margin-right: -1rem;
+	background-attachment: fixed;
+	scroll-margin-top: 10rem;
 }
 
 #aboutme h2 {
@@ -102,7 +104,7 @@ body {
 }
 
 #landing {
-	scroll-margin-top: 3rem;
+	scroll-margin-top: 10rem;
 	margin-top: 10rem;
 	background-size: cover;
 	background-position: center;
@@ -118,7 +120,7 @@ body {
 /* PROJECTS SECTION */
 
 #projects {
-	scroll-margin-top: 5rem;
+	scroll-margin-top: 8rem;
 }
 
 #projects div h2 {
@@ -142,7 +144,7 @@ body {
 }
 
 #tools{
-	scroll-margin-top: 5rem;
+	scroll-margin-top: 8rem;
 }
 
 #tools img {
@@ -155,7 +157,7 @@ body {
 /* CONTACT SECTION */
 #contact {
 	min-height: 60vh;
-	scroll-margin-top: 5rem;
+	scroll-margin-top: 8rem;
 }
 
 #contact div h2 {
