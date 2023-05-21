@@ -28,7 +28,7 @@ function scrollToNextSection() {
   let  nextSection
   //if currentSection is last section, set nextSection to landing section.
   if(currentSection.id === "contact"){
-      nextSection = document.querySelector("#landing-with-bg")
+      nextSection = document.querySelector("#landing")
   } else {
       nextSection = currentSection.nextElementSibling;
   }
