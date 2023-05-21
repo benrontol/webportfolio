@@ -61,6 +61,7 @@ body {
 
 #aboutme h2 {
 	font-weight: bold;
+	letter-spacing: 0.12rem;
 }
 
 #aboutme p {
