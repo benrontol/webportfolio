@@ -38,9 +38,9 @@ body {
 	font-family: 'Red Hat Display', sans-serif;
 }
 
-.navbar-brand span {
-/*	color: #FFFFFF80;*/
-}
+/* .navbar-brand span {
+	color: #FFFFFF80;
+} */
 
 .nav-item {
 	font-size: 1.1rem;
@@ -100,10 +100,10 @@ body {
 	bottom: 0.3rem;
 	margin-right: 0.3rem;
 }
-
+/* 
 #fswd {
-/*	letter-spacing: 0.1rem;*/
-}
+	letter-spacing: 0.1rem;
+} */
 
 #landing {
 	scroll-margin-top: 10rem;
